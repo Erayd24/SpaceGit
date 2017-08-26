@@ -1,0 +1,61 @@
+Converting GML script : ${project_dir}\scripts\scr_Camera\scr_Camera.gml
+Converted builtin : line 5 : view_wview[0] = view_wport[0]/2 -> __view_set( e__VW.WView, 0, view_wport[0]/2 )
+Converted builtin : line 6 : view_hview[0] = view_hport[0]/2 -> __view_set( e__VW.HView, 0, view_hport[0]/2 )
+Converted builtin : line 7 : view_hborder[0] = view_wport[0]/2 -> __view_set( e__VW.HBorder, 0, view_wport[0]/2 )
+Converted builtin : line 8 : view_vborder[0] = view_hport[0]/2 -> __view_set( e__VW.VBorder, 0, view_hport[0]/2 )
+Converted builtin : line 4 : view_object[0] = obj_Camera -> __view_set( e__VW.Object, 0, obj_Camera )
+Converted builtin : line 9 : view_visible[0] = true -> __view_set( e__VW.Visible, 0, true )
+Converted builtin : line 11 : view_wport[0] -> __view_get( e__VW.WPort, 0 )
+Converted builtin : line 11 : view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted description : /// @description Camera setup
+Converted builtin : line 5 : view_wport[0] -> __view_get( e__VW.WPort, 0 )
+Converted builtin : line 7 : view_wport[0] -> __view_get( e__VW.WPort, 0 )
+Converted builtin : line 6 : view_hport[0] -> __view_get( e__VW.HPort, 0 )
+Converted builtin : line 8 : view_hport[0] -> __view_get( e__VW.HPort, 0 )
+
+Converting GML script : ${project_dir}\objects\obj_Enemy\Create_0.gml
+Converted description : /// @description Vars
+
+Converting GML script : ${project_dir}\objects\obj_Enemy\Step_0.gml
+Converted description : /// @description Movement
+
+Converting GML script : ${project_dir}\objects\obj_GameState\Create_0.gml
+Converted builtin : line 19 : view_wport[0] = wwindow -> __view_set( e__VW.WPort, 0, wwindow )
+Converted builtin : line 20 : view_hport[0] = hwindow -> __view_set( e__VW.HPort, 0, hwindow )
+Converted description : /// @description Variables
+
+Converting GML script : ${project_dir}\objects\obj_GameState\Step_0.gml
+Converted builtin : line 56 : view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 56 : view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin : line 39 : view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin : line 55 : view_wport -> __view_get( e__VW.WPort, 0 )
+Converted builtin : line 39 : view_hport -> __view_get( e__VW.HPort, 0 )
+Converted builtin : line 55 : view_hport -> __view_get( e__VW.HPort, 0 )
+Converted description : /// @description Create Enemies
+
+Converting GML script : ${project_dir}\objects\obj_GameState\Other_4.gml
+Converted description : /// @description At Game State start
+
+Converting GML script : ${project_dir}\objects\obj_GameState\Other_3.gml
+Converted description : /// @description Clean up
+
+Converting GML script : ${project_dir}\objects\obj_GameState\Draw_64.gml
+Converted description : /// @description Draw Game
+
+Converting GML script : ${project_dir}\objects\obj_Player\Create_0.gml
+Converted description : /// @description vars
+
+Converting GML script : ${project_dir}\objects\obj_Player\Step_0.gml
+Converted description : /// @description Movement
+
+Font fnt_Basic has been converted to font family Berlin Sans FB (Regular). Font has been regenerated, small inconsistencies may occur.
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2.
+game speed set to 60
+added compatibility script instance/instance_create.gml
+added compatibility script object/object_get_depth.gml
+added compatibility script view/__view_get.gml
+added compatibility script view/__view_set.gml
+added compatibility script view/__view_set_internal.gml
+added compatibility script view/__init_view.gml
+added compatibility script __init_global.gml
+added compatibility script __global_object_depths.gml
